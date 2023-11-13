@@ -1,7 +1,6 @@
-import random
-import sys
-import time
+import random, sys, time
 
+from config import *
 
 time.sleep(.50)
 
@@ -14,16 +13,27 @@ with open('fileoverview.txt', encoding='utf8') as f:
 
 
 def main():
-    choices = ['Fender', 'Gibson', 'Epiphone', 'Schecter']
+    choices = ['fender', 'gibson', 'epiphone', 'ibanez']
     time.sleep(1)
-    user_input = input('Hello, what king of guitar are you looking for?: \n\n')
-    return_Msg(user_input)
+    myGuitar = input('Hello, what king of guitar are you looking for?: \n\n')
 
-    if user_input == [choices]:
-        user_input
+    myModel = input("")
 
-    elif user_input != "":
+    if myGuitar not in choices:
+        print("Hmm, I don't know that one.")
+        print(f"\n I know only, {[choices]}")
         exit()
+
+    else:
+        return_Msg(myGuitar)
+        returnResponse()
+        myGuitar += Guitars(brand=myGuitar, model=None, type=None)
+
+
+
+
+
+
 
 
 

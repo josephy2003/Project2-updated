@@ -8,4 +8,26 @@ The GuitarBuilder 1.0 is a guitar constructor which creates your most desired gu
 Using classes to divide 3 major values (𝑩𝒓𝒂𝒏𝒅, 𝗠𝗼𝗱𝗲𝗹, & 𝒕𝒚𝒑𝒆) you can create whatever guitar
 you please! As simple as answering the prompt, you will have your very own Py-Tar (Python-guitar).
 
+
+
+OPTIONS
+
+Brand:
+
+Fender, Gibson, Epiphone, Ibanez
+___
+
+Model:
+
+Fender; Stratocaster, Telocaster, Jazzmaster ,Mustang
+
+Gibson; Les Paul', SG, Explorer, Flying V
+
+Epiphone; ES339, Crestwood, Wilshire
+
+Ibanez; RG, GRX, Genesis
+
+___
+
+
 ___________________________________________________________________________________________________
